@@ -1,0 +1,9 @@
+openapi: 3.1.0
+info:
+  title: Users management
+  description: Users management
+  version: 1.0.0
+servers:
+  - url: 'http://localhost:8000'
+paths:
+  
