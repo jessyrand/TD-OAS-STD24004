@@ -1,0 +1,20 @@
+openapi: 3.1.0
+info:
+  title: Ping pong
+  description: Ping pong
+  version: 1.0.0
+servers:
+  - url: 'http://localhost:8000'
+paths:
+  /ping:
+    get:
+      description: Return pong.
+      responses:
+        '200':
+          description: Ok
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: pong
+  
