@@ -6,4 +6,43 @@ info:
 servers:
   - url: 'http://localhost:8000'
 paths:
+  /users:
+    get:
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+        - name: size
+          in: query
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: found user
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    example: 1
+                  name:
+                    type: string
+                    example: Alice
+                  email:
+                    type: string
+                    format: email
+                    example: alice@example.com
+        '400':
+          description: Bad types for provided query parameters
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: Bad types for provided query parameters
   
