@@ -1,6 +1,6 @@
 openapi: 3.1.0
 info:
-  title: Ping pong
+  title: TD OpenAPI Specification - Exercise 1
   description: Ping pong
   version: 1.0.0
 servers:

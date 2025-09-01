@@ -1,6 +1,6 @@
 openapi: 3.1.0
 info:
-  title: Products search
+  title: TD OpenAPI Specification - Exercise 4
   description: Products search API
   version: 1.0.0
 servers:
@@ -25,13 +25,13 @@ paths:
                   value:
                     - name: "Cookies"
                       expiration_datetime: "2025-09-01T12:00:00Z"
-                      price: 2.5
+                      price: 2500
                     - name: "Kiwi"
                       expiration_datetime: "2025-09-05T18:00:00Z"
-                      price: 1.2
+                      price: 1200
                     - name: "Water"
                       expiration_datetime: "2025-10-15T16:00:00Z"
-                      price: 1.1
+                      price: 1100
                 emptyList:
                   value: []
 

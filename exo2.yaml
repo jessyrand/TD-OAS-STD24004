@@ -1,6 +1,6 @@
 openapi: 3.1.0
 info:
-  title: Users management
+  title: TD OpenAPI Specification - Exercise 2
   description: Users management
   version: 1.0.0
 servers:

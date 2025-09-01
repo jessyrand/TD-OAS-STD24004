@@ -1,6 +1,6 @@
 openapi: 3.1.0
 info:
-  title: Tasks management
+  title: TD OpenAPI Specification - Exercise 3
   description: Tasks management
   version: 1.0.0
 servers:
